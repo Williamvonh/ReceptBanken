@@ -426,41 +426,64 @@ left: 1px;
         left: 70%;
         top: 50%;
     }
-    .contact-form2 h6{
-        font-weight: 200;
-        font-family: lato;
-        text-align: center;
-        margin-right: 12%;
-        position: relative;
-        top: 30%;
-        }
-        .contact-form3{
-            width: 30%;
-            max-width: 600px;
-            background: #f1f1f1;
-            transform: translate(-50%,-50%);
-            padding: 30px 40 px;
-            box-sizing: border-box;
-            border-radius: 8px;
-            text-align: center;
-            box-shadow: 0 0 20px #471f1fb3;
-            font-family: lato;
-            position: absolute;
-            left: 30%;
-            top: 50%;
-        }
-        .contact-form3 h6{
-            font-weight: 200;
-            font-family: lato;
-            text-align: center;
-            margin-right: 12%;
-            position: relative;
-            top: 30%;
-            }
+.contact-form2 h6{
+font-weight: 200;
+font-family: lato;
+text-align: center;
+margin-right: 12%;
+position: relative;
+top: 30%;
+}
+.contact-form3{
+width: 30%;
+max-width: 600px;
+background: #f1f1f1;
+transform: translate(-50%,-50%);
+padding: 30px 40 px;
+box-sizing: border-box;
+border-radius: 8px;
+text-align: center;
+box-shadow: 0 0 20px #471f1fb3;
+font-family: lato;
+position: absolute;
+left: 30%;
+top: 50%;
+}
+.contact-form3 h6{
+font-weight: 200;
+font-family: lato;
+text-align: center;
+margin-right: 12%;
+position: relative;
+top: 30%;
+}
+.weatherbox{
+width: 30%;
+height: 20%;
+background: #f1f1f1;
+transform: translate(-50%,-50%);
+padding: 30px 40 px;
+box-sizing: border-box;
+border-radius: 8px;
+text-align: center;
+box-shadow: 0 0 20px #471f1fb3;
+font-family: lato;
+position: absolute;
+left: 75%;                                        
+top: 35%;
+}
+.weatherbox h6{
+font-weight: 200;
+font-family: lato;
+text-align: center;
+margin-right: 15%;
+position: relative;
+top: 10%;
+}
 footer {
-    width: 100%;
-    background-color: white;
-    padding: 35px;
-    position: relative;
-    bottom: 0px;
+width: 100%;
+background-color: white;
+padding: 35px;
+position: relative;
+bottom: 0px;
 }

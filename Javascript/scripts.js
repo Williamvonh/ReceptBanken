@@ -24,17 +24,17 @@ function openNav() {
     menu.width("100px");
     var background = $(".background");
     background.css({marginLeft : "100px"});
-    
-    
   }
-  
-
   function closeNav() {
     var menu = $(".sidemenu");
     menu.width("0");
     var background = $(".background");
     background.css({marginLeft : "0px"});
   }
+  var weatherbox = document.getElementsByClassName("weatherbox");
+  var weathername = document.getElementsByName("GET")
+ 
+
         $(document).ready(function(){
             $.ajax({
  method: "GET",
@@ -43,7 +43,8 @@ function openNav() {
  success: ajaxReturn_Success
  })
  function ajaxReturn_Success(result, status, xhr) {
- alert("Long: "+result.longitude + ", Lat: "+result.latitude);
+   var weather = document.getElementsByClassName("weathername");
+   weather.innerHTML = "funkar";
  }
  function ajaxReturn_Error(result, status, xhr) {
  console.log("Ajax-api-stack: "+status);
